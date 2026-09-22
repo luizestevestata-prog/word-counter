@@ -11,3 +11,7 @@ def test_multiple_words():
 
 def test_multiple_spaces():
     assert count_words("hello   world") == 2
+
+
+def test_empty_string():
+    assert count_words("") == 0
